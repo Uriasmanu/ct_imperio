@@ -1,4 +1,11 @@
 {
+  "loginScreen": {
+    "logoImage": "assets/logos/logoCt.png",
+    "welcomeText": "Bem-vindo ao CT Imperio",
+    "hintUser": "Usuário",
+    "hintPassword": "Senha",
+    "buttonText": "Entrar"
+  },
   "appBar": {
     "title": "CT Imperio"
   },
