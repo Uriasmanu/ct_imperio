@@ -2,7 +2,7 @@ import 'package:ct_imperio/screens/usuario_screen.dart';
 import 'package:flutter/material.dart';
 import 'screens/loja_screen.dart';
 import 'screens/agenda_screen.dart';
-import 'screens/login_screen.dart'; 
+import 'screens/login_screen.dart';
 import 'components/navigation_bar.dart';
 
 void main() => runApp(const MyApp());
@@ -30,9 +30,9 @@ class _MyHomePageState extends State<MyHomePage> {
   int currentPageIndex = 0;
 
   final List<Widget> pages = const [
-    UsuarioScreen(),
     LojaScreen(),
     AgendaScreen(),
+    UsuarioScreen(),
   ];
 
   @override

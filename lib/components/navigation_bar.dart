@@ -18,11 +18,6 @@ class CustomNavigationBar extends StatelessWidget {
       backgroundColor: Colors.yellow,
       destinations: const [
         NavigationDestination(
-          icon: Icon(Icons.account_circle_outlined),
-          selectedIcon: Icon(Icons.account_circle),
-          label: 'Usuario',
-        ),
-        NavigationDestination(
           icon: Icon(Icons.local_mall_outlined),
           selectedIcon: Icon(Icons.local_mall),
           label: 'Loja',
@@ -31,6 +26,11 @@ class CustomNavigationBar extends StatelessWidget {
           icon: Icon(Icons.article_outlined),
           selectedIcon: Icon(Icons.article),
           label: 'Agenda',
+        ),
+        NavigationDestination(
+          icon: Icon(Icons.account_circle_outlined),
+          selectedIcon: Icon(Icons.account_circle),
+          label: 'Usuario',
         ),
       ],
     );

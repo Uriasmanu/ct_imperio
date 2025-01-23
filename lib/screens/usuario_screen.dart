@@ -9,7 +9,7 @@ class UsuarioScreen extends StatelessWidget {
 
     return Center(
       child: Text(
-        '',
+        'Tela de Usuário',
         style: theme.textTheme.headlineMedium,
       ),
     );
