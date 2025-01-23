@@ -1,0 +1,30 @@
+{
+  "appBar": {
+    "title": "CT Imperio"
+  },
+  "navigation": {
+    "login": "Login",
+    "loja": "Loja",
+    "agenda": "Agenda"
+  },
+  "cards": [
+    {
+      "id": 1,
+      "title": "Esteira Ergométrica (Semi novo)",
+      "subtitle": "R$ 1.500,00",
+      "buttonText": "Tenho interesse"
+    },
+    {
+      "id": 2,
+      "title": "Bicicleta Spinning (Nova)",
+      "subtitle": "R$ 2.000,00",
+      "buttonText": "Tenho interesse"
+    },
+    {
+      "id": 3,
+      "title": "Banco Supino (Usado)",
+      "subtitle": "R$ 800,00",
+      "buttonText": "Tenho interesse"
+    }
+  ]
+}
